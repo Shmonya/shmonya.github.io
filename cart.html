@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main_page.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="font/stylesheet.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <script src="js/popper.min"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+	<title>cart</title>
+</head>
+<body>
+	<header class="header">
+		<div class="div_header">
+			<div class="burger-menu">
+			    <input id="menu-toggle" type="checkbox" />
+			    <label class="menu-btn" for="menu-toggle">
+			      <span></span>
+			    </label>
+			    <ul class="menubox">
+			            <li><a class="menu-item" href="compound.html">Составы</a></li>
+			            <li><a class="menu-item" href="main_page.html#try">Каталог</a></li>
+			            <li><a class="menu-item" href="delivery.html">Адреса</a></li>
+			            <li><a class="menu-item" href="main_page.html#faq">FAQ</a></li>
+			            <li><a class="menu-item" href="main_page.html#about">О компании</a></li>
+			    </ul>
+		 	</div>
+			<nav><a class="a_logo" href="main_page.html">STOYN	&reg;</a> </nav>
+			<nav class="list"> 
+				<a class="link" href="compound.html">Составы</a>
+				<a class="link" href="main_page.html#try">Каталог</a>
+				<div class="dropdown">
+				  <a href="#" class="link dropbtn">Адреса</a>
+				  <div class="dropdown-content">
+				    <a href="delivery.html">Представители</a>
+				    <a href="delivery.html">Москва</a>
+				    <a href="delivery.html">Новосибирск</a>
+				    <a href="delivery.html">Тюмень</a>
+				    <a href="delivery.html">Красноярск</a>
+				    <a href="delivery.html">Екатеринбург</a>
+				    <a href="delivery.html">Челябинск</a>
+				    <a href="delivery.html">Самара</a>
+				    <a href="delivery.html">Сочи</a>
+				    <a href="delivery.html">Ялта</a>
+				    <a href="delivery.html">Краснодар</a>
+				    <a href="delivery.html">Ростов</a>
+				    <a href="delivery.html">Анапа</a>
+				  </div>
+				</div>
+				<a class="link" href="main_page.html#faq">FAQ</a>
+				<a class="link" href="main_page.html#about">О компании</a>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<h2 class="h2_cart">КОРЗИНА</h2>
+		<div class="section_div">
+		<div class="cart_items cart_items_media">
+			<div class="cart_item1">
+				<img class="img_cart" src="img/trex.png">
+				<div>
+					<p class="p_name">ТИРАНОЗАВР</p>
+					<p class="p_description">Мятная жвачка</p>
+					<div class="div_cost">
+						<p class="p_cost" ><span id="calculation">250</span><span style="color: pink;">&#8381;</span></p>
+						<div class="div_counter" id="counter">
+							<input class="button_value1" type="button" id="buttonCountPlus" value="+">
+							<div  id="buttonCountNumber">1</div>
+							<input class="button_value1" type="button" id="buttonCountMinus" value="-">
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="hr_cart" noshade>
+			<div class="cart_item2">
+				<img class="img_cart" src="img/trex_blue.png">
+				<div>
+					<p class="p_name">ТИРАНОЗАВР</p>
+					<p class="p_description">Мятная жвачка</p>
+					<div class="div_cost">
+						<p class="p_cost" ><span id="calculation1">250</span><span style=" color:rgb(0, 255, 204);">&#8381;</span></p>
+						<div id="counter">
+							<input class="button_value2" type="button" id="buttonCountPlus1" value="+">
+							<div id="buttonCountNumber1">1</div>
+							<input class="button_value2" type="button" id="buttonCountMinus1" value="-">
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="aside">
+			<h5 class="h5_cart">ВАШ ЗАКАЗ:</h5>
+			<div class="promocode">
+				<p class="p_promocode">Стоимость заказа <span class="span_promocode">500 &#8381;</span> </p>
+				<p class="p_promocode">Скидка <span class="span_promocode">0 &#8381;</span> </p>
+			</div>
+			<p class="p_promocode">Сертификаты и промокоды</p>
+			<form>
+				<input type="text" class="input_promocode">
+				<input type="submit" value="ПРИМЕНИТЬ">
+			</form>
+			<hr class="hr1_cart" noshade>
+			<p class="p_cost_sum"> Итого: <span> 500 &#8381; </span> </p>
+		</div>
+			<a class="aside_button" href="#">ОФОРМИТЬ ЗАКАЗ</a>
+		</div>
+	</section>
+<footer class="footer">
+		<h3 class="footer_h3">STOYN ICE CREAM</h3>
+		<div class="footer_div">
+			<div class="footer_div_media">
+				<h5 class="h5_media_footer">WhatsApp</h5>
+				<p><span class="footer_span"><b>RU  </b></span><a class="footer_a_contacts" href="tel:+79164593348">+7 (916) 459-33-48</a></p>
+				<p><span class="footer_span"><b>ENG </b></span><a class="footer_a_contacts" href="tel:+79151882600">+7 (915) 188-26-00</a></p>
+				<a class="h5_media_footer" href="#popup" class="a_popup_contacts">ЗАКАЗАТЬ ЗВОНОК</a>
+			</div>
+			<div class="footer_div_media">
+				<h5 class="h5_media_footer">ЗАКАЗ МОРОЖЕНОГО</h5>
+				<p><a class="footer_a_contacts" href="mailto:stoynicecream@gmail.com">stoynicecream@gmail.com</a></p>
+			</div>
+			<div class="footer_div_media">
+				<h5 class="h5_media_footer">СТУДИЯ</h5>
+				<p><a class="footer_a_contacts" href="mailto:stoynhotline@gmail.com">stoynhotline@gmail.com</a></p>
+			</div>
+		</div>
+		<div class="contacts">
+			<a href="https://www.facebook.com/STOYN.IceCream"><img class="a_contacts" src="img/fb.png"></a>
+			<a href="https://instagram.com/thestoyn"><img class="a_contacts" src="img/inst.png"></a>
+			<a href="https://vk.com/stoynicecream"><img class="a_contacts" src="img/vk.png"></a>
+			<a href="https://stoyn.tumblr.com/"><img class="a_contacts" src="img/tmblr.png"></a>
+			<a href="https://www.pinterest.com/STOYN/"><img class="a_contacts" src="img/pinterest.jpg"></a>
+		</div>
+	</footer>
+	<div id="popup" class="popup">
+		<a href="#header" class="popup_area"></a>
+		<div class="popup_body">
+			<div class="popup_content">
+				<a href="#header" class="popup_close">X</a>
+				<div class="popup_title">Оставьте Ваши контакты и мы перезвоним Вам :></div>
+				<div class="popup_text">Мобильный телефон</div>
+				<form><input type="text" placeholder="+7-(***)-***-**-**"></form>
+				<div class="popup_text">Электронная почта</div>
+				<form><input type="text" placeholder="*****@gmail.com"></form>
+				<a href="#popup1" class="a_popup">НАПИШИТЕ МНЕ</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/cart.js"></script>
+</body>
+</html>
